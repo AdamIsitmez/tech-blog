@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Introduction to Artificial Intelligence",
+        "contents": "Artificial intelligence (AI) is a branch of computer science that aims to create intelligent machines that can mimic human behavior.",
+        "user_id": 3
+    },
+    {
+        "title": "Understanding Neural Networks",
+        "contents": "Neural networks are a fundamental component of deep learning, a subset of machine learning that has seen tremendous progress in recent years.",
+        "user_id": 7
+    },
+    {
+        "title": "Building Scalable Web Applications",
+        "contents": "Scalability is a crucial aspect of web application development, especially as the user base grows and traffic increases.",
+        "user_id": 2
+    },
+    {
+        "title": "The Future of Quantum Computing",
+        "contents": "Quantum computing holds the promise of solving complex problems that are currently intractable for classical computers.",
+        "user_id": 5
+    },
+    {
+        "title": "Data Privacy in the Age of Big Data",
+        "contents": "As data collection and analysis become more pervasive, ensuring data privacy and protection is paramount.",
+        "user_id": 8
+    },
+    {
+        "title": "Machine Learning for Predictive Analytics",
+        "contents": "Machine learning algorithms analyze large datasets to identify patterns and make predictions about future events.",
+        "user_id": 1
+    },
+    {
+        "title": "Cybersecurity Best Practices for Businesses",
+        "contents": "With the increasing frequency of cyberattacks, implementing robust cybersecurity measures is essential for businesses to protect their assets and data.",
+        "user_id": 9
+    },
+    {
+        "title": "Exploring Blockchain Technology",
+        "contents": "Blockchain technology is revolutionizing industries by providing decentralized and secure methods for transactions and data storage.",
+        "user_id": 4
+    },
+    {
+        "title": "The Rise of DevOps Culture",
+        "contents": "DevOps practices bridge the gap between software development and IT operations, enabling faster and more reliable software delivery.",
+        "user_id": 6
+    },
+    {
+        "title": "Advancements in Augmented Reality",
+        "contents": "Augmented reality (AR) overlays digital information onto the physical world, opening up new possibilities for entertainment, education, and commerce.",
+        "user_id": 10
+    }
+]

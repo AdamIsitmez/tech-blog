@@ -1,0 +1,102 @@
+[
+    {
+        "contents": "Great introduction to AI concepts!",
+        "user_id": 3,
+        "post_id": 1
+    },
+    {
+        "contents": "I found the explanation on neural networks very helpful.",
+        "user_id": 7,
+        "post_id": 2
+    },
+    {
+        "contents": "This article provided valuable insights into building scalable web applications.",
+        "user_id": 2,
+        "post_id": 3
+    },
+    {
+        "contents": "Exciting prospects for the future of quantum computing!",
+        "user_id": 5,
+        "post_id": 4
+    },
+    {
+        "contents": "Data privacy is such an important topic, thanks for addressing it.",
+        "user_id": 8,
+        "post_id": 5
+    },
+    {
+        "contents": "Machine learning is fascinating, and this article explained it well.",
+        "user_id": 1,
+        "post_id": 6
+    },
+    {
+        "contents": "Thank you for the cybersecurity tips, very informative.",
+        "user_id": 9,
+        "post_id": 7
+    },
+    {
+        "contents": "Blockchain technology is indeed groundbreaking!",
+        "user_id": 4,
+        "post_id": 8
+    },
+    {
+        "contents": "DevOps practices have transformed software development.",
+        "user_id": 6,
+        "post_id": 9
+    },
+    {
+        "contents": "I'm excited to see the advancements in augmented reality!",
+        "user_id": 10,
+        "post_id": 10
+    },
+    {
+        "contents": "This post helped me understand AI better.",
+        "user_id": 3,
+        "post_id": 1
+    },
+    {
+        "contents": "I'm interested in learning more about neural networks after reading this.",
+        "user_id": 7,
+        "post_id": 2
+    },
+    {
+        "contents": "Scalability is a key consideration in modern web development.",
+        "user_id": 2,
+        "post_id": 3
+    },
+    {
+        "contents": "I'm curious about the real-world applications of quantum computing.",
+        "user_id": 5,
+        "post_id": 4
+    },
+    {
+        "contents": "Data privacy is everyone's responsibility.",
+        "user_id": 8,
+        "post_id": 5
+    },
+    {
+        "contents": "Machine learning has immense potential for various industries.",
+        "user_id": 1,
+        "post_id": 6
+    },
+    {
+        "contents": "Cybersecurity is a critical aspect of business operations.",
+        "user_id": 9,
+        "post_id": 7
+    },
+    {
+        "contents": "Blockchain technology has far-reaching implications.",
+        "user_id": 4,
+        "post_id": 8
+    },
+    {
+        "contents": "DevOps has revolutionized software development practices.",
+        "user_id": 6,
+        "post_id": 9
+    },
+    {
+        "contents": "The potential of augmented reality is exciting!",
+        "user_id": 10,
+        "post_id": 10
+    }
+]
