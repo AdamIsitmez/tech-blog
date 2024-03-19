@@ -1,5 +1,18 @@
-header, .project:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+* {
+  font-family: "Share Tech", sans-serif;
+}
+
+:root {
+  --main-bg-color: rgb(246, 255, 211);
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
 
 .no-button {
@@ -12,13 +25,143 @@ header, .project:not(:last-child) {
   font-size: 100%;
 }
 
-.no-button:hover {
-  color: #065b83;
-  text-decoration: underline;
+#login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
 }
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
+header {
+  flex-direction: column;
+  gap: 30px;
+  background-color: black;
+}
+
+header>h1 {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: var(--main-bg-color);
+  border-radius: 10px;
+}
+
+header>h1>a {
+  color: black;
+}
+
+nav {
+  gap: 40px;
+}
+
+nav>a,
+.no-button {
+  font-size: 25px;
+  color: var(--main-bg-color);
+  transition: 0.5s;
+}
+
+nav>a::after,
+.no-button::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: var(--main-bg-color);
+  transition: 300ms;
+}
+
+nav>a:hover::after,
+.no-button:hover::after {
+  width: 100%;
+}
+
+.post {
+  flex-direction: column;
+  border: solid;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  background-color: black;
+}
+
+.post-header>p {
+  color: grey
+}
+
+.post-header>h2 {
+  color: var(--main-bg-color);
+  font-size: 25px;
+  margin: 0;
+}
+
+.post:hover {
+  box-shadow: 11px 11px 20px grey;
+}
+
+.contents {
+  padding: 5px;
+}
+
+.comments {
+  width: 100%;
+  border-top: solid black;
+  padding: 5px;
+}
+
+.comment {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0px 10px 0;
+}
+
+.comment:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.show-comments,
+.edit-button,
+#new-post {
+  width: 120px;
+  background-color: black;
+  font-family: "Share Tech", sans-serif;
+  color: var(--main-bg-color);
+  border-radius: 5px;
+  margin: 5px;
+  transition: 0.2s;
+}
+
+.show-comments:hover,
+.edit-button:hover,
+#new-post:hover {
+  background-color: var(--main-bg-color);
+  color: black;
+  cursor: pointer;
+}
+
+#post-form {
+  display: flex;
+  justify-content: center;
+}
+
+#new-post-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px
+}
+
+#new-post {
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  background-color: black;
+  color: var(--main-bg-color);
+  border-radius: 10px;
 }
